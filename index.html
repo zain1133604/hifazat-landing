@@ -53,6 +53,27 @@
     font-size: 18px;
     letter-spacing: 0.3px;
   }
+  .watch-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    max-width: 360px;
+    margin: 0 auto 10px;
+    padding: 10px 14px;
+    background: rgba(34,197,94,0.12);
+    border: 1px solid rgba(34,197,94,0.35);
+    border-radius: 10px;
+    color: var(--accent);
+    font-size: 13.5px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .watch-icon {
+    flex: 0 0 auto;
+    font-size: 11px;
+  }
   .video-card {
     position: relative;
     width: 100%;
@@ -255,6 +276,11 @@
     <span>Hifazat Block</span>
   </div>
 
+  <div class="watch-label">
+    <span class="watch-icon">▶</span>
+    Ye video pehle lazmi dekhein — install se pehle zaroori hai
+  </div>
+
   <div class="video-card" id="videoCard">
     <!--
       Replace this placeholder block with:
@@ -283,7 +309,7 @@
     <a
       id="downloadBtn"
       class="download-btn"
-      href="https://github.com/zain1133604/HifazatBlock/releases/download/v5.0.0/app-release.apk"
+      href="https://github.com/zain1133604/HifazatBlock/releases/latest/download/app-release.apk"
       download
     >
       ⬇ Download Hifazat Block

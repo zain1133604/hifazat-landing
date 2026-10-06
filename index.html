@@ -53,6 +53,43 @@
     font-size: 18px;
     letter-spacing: 0.3px;
   }
+  .app-description {
+    max-width: 440px;
+    margin: 0 auto 18px;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--text-dim);
+    text-align: center;
+  }
+  .app-description p { margin-bottom: 8px; }
+  .app-description b { color: var(--text); }
+  .download-btn-noscript {
+    display: flex;
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto 18px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 20px;
+    background: linear-gradient(180deg, var(--accent), var(--accent-dark));
+    color: #06170f;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 14px;
+    text-decoration: none;
+  }
+  .footer-links {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-size: 12.5px;
+  }
+  .footer-links a {
+    color: var(--text-dim);
+    text-decoration: underline;
+  }
   .watch-label {
     display: flex;
     align-items: center;
@@ -276,6 +313,12 @@
     <span>Hifazat Block</span>
   </div>
 
+  <noscript>
+    <a class="download-btn-noscript" href="https://github.com/zain1133604/HifazatBlock/releases/latest/download/app-release.apk" download>
+      ⬇ Download Hifazat Block (APK)
+    </a>
+  </noscript>
+
   <div class="watch-label">
     <span class="watch-icon">▶</span>
     Ye video pehle lazmi dekhein — install se pehle zaroori hai
@@ -321,6 +364,11 @@
     <span>Android 8+</span>
   </div>
 
+  <div class="app-description">
+    <p><b>Hifazat Block</b> is a free Android app for blocking distracting apps, filtering adult content, and setting daily usage limits, scheduled blocking windows, and focus sessions.</p>
+    <p>To do this, it asks for <b>Accessibility</b> and <b>Device Admin</b> permissions — these let it detect and block apps/content, and stop itself from being disabled while a block you started is still active. It also runs a local VPN for content filtering (no data leaves your device). No account or sign-up required.</p>
+  </div>
+
   <div class="steps">
     <h2>After you download</h2>
     <div class="step">
@@ -333,12 +381,17 @@
     </div>
     <div class="step">
       <div class="num">3</div>
-      <div class="txt">Turn on <b>Accessibility</b> and set your password when the app asks.</div>
+      <div class="txt">Turn on <b>Accessibility</b> when the app asks, so blocking actually works.</div>
     </div>
   </div>
 
   <div class="footer-note">
     Having trouble installing? The app will walk you through every remaining step with short videos, right when you need them.
+  </div>
+
+  <div class="footer-links">
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="mailto:pponk2023@gmail.com">Contact: pponk2023@gmail.com</a>
   </div>
 
 </div>
